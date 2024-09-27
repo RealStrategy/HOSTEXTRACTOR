@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Extractor de URL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Extractor de URL V3</h1>
+        <div class="form-group">
+            <label for="input-text">Ingresar codigo fuente:</label>
+            <br>
+            <textarea id="input-text" class="form-control" rows="4"></textarea>
+        </div>
+        <div class="form-group text-center">
+            <button id="extract-button" class="btn btn-green">Extraer enlaces</button>
+            <button id="extract-unique-button" class="btn btn-green">Extraer sni & ssl</button>
+        </div>
+        <div class="form-group">
+            <label for="result-text">Resultados:</label>
+            <textarea id="result-text" class="form-control" rows="5" readonly></textarea>
+        </div>
+        <div class="form-group text-center">
+            <a href="https://todoreal.com/como-encontrar-host-funcionales-usando-link-extractor/" target="_blank"
+                class="btn btn-home">Tutorial</a><br><br>
+            <a href="https://todoreal.com" target="_blank" class="btn btn-home">Volver al inicio</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
